@@ -1,4 +1,12 @@
-// add your code as appropriate 
+
+/*
+Author: Vladislav Vostrikov
+Course: CSCI-135
+Instructor: Michael Zamansky
+Assignment: Lab 3
+
+Tests functions from reservoir.cpp reverseorder.cpp
+*/
 #include <iostream>
 #include <string>
 #include "reservoir.h"
@@ -21,9 +29,9 @@ int main(){
     std::cout << compare_basins("test_equal") << std::endl; //added entry test_equal at the end of the tsv file to test equal elevations
     std::cout << "Testing reverse_order" << std::endl;
     reverse_order("01/01/2018", "01/01/2018");
-    std::cout << std::endl;
+    std::cout << "testing reverse_order" << std::endl;
     reverse_order("01/01/2018", "01/15/2018");
-    std::cout << std::endl;
+    std::cout << "testing reverse_order" << std::endl;
     reverse_order("05/29/2018", "06/02/2018");
        
 

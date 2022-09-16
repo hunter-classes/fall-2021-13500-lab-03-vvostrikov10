@@ -1,3 +1,12 @@
+
+/*
+Author: Vladislav Vostrikov
+Course: CSCI-135
+Instructor: Michael Zamansky
+Assignment: Lab 3
+
+Contains revese_order which returns west elevations in reverse chronological order in specified range
+*/
 #include <iostream>
 #include <string>
 #include <fstream>

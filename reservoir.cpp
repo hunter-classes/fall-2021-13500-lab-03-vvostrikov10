@@ -1,4 +1,12 @@
-// add your code
+
+/*
+Author: Vladislav Vostrikov
+Course: CSCI-135
+Instructor: Michael Zamansky
+Assignment: Lab 3
+
+Contains functions for reading data from tsv file
+*/
 #include <iostream>
 #include <string>
 #include <fstream>
